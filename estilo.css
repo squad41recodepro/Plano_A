@@ -41,3 +41,10 @@
 color: black;
     background-color: #FB8500;
 }
+
+#bgBK {
+    background-color: #000;
+}
+#bgWH {
+    background-color: #fff;
+}
