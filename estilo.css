@@ -1,0 +1,43 @@
+/* Azul clarissimo*/
+.BGAzulBB {
+    background-color: #8ECAE6;
+
+}
+
+/* Azul claro medio*/
+.BGAzul {
+
+    background-color: #219EBC;
+}
+
+/* Azul marinho*/
+.BGMarinho {
+
+    background-color: #023047;
+}
+
+/* Amarelo Seletivo*/
+.BGAmarelo {
+
+    background-color: #FFB703;
+}
+
+/*Tangerina*/
+.BGLaranja {
+
+    background-color: #FB8500;
+}
+
+
+
+/* ID Azul clarissimo*/
+#BGAzulBB {
+    background-color: #8ECAE6;
+
+}
+
+/* ID Tangerina*/
+#BGLaranja {
+color: black;
+    background-color: #FB8500;
+}
