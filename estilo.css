@@ -1,33 +1,34 @@
-/* Azul clarissimo*/
+/* classes de bg-color segundo a palheta escolhida, todas as 5 cores respectivas */
 .BGAzulBB {
     background-color: #8ECAE6;
-
 }
-
-/* Azul claro medio*/
 .BGAzul {
-
     background-color: #219EBC;
 }
-
-/* Azul marinho*/
 .BGMarinho {
-
     background-color: #023047;
 }
-
-/* Amarelo Seletivo*/
 .BGAmarelo {
-
     background-color: #FFB703;
 }
-
-/*Tangerina*/
 .BGLaranja {
-
     background-color: #FB8500;
 }
-
+/* ID's de background segundo necessidade de sobreposição*/
+#BGAzulBB {
+    background-color: #8ECAE6;
+}
+#BGLaranja {
+color: black;
+    background-color: #FB8500;
+}
+#bgBK {
+    background-color: #000;
+}
+#bgWH {
+    background-color: #fff;
+}
+/* classes de foreground */
 .textoBranco {
     color: #fff;
 }
@@ -50,29 +51,7 @@
     color: #FB8500;
 }
 
-
-
-
-/* ID Azul clarissimo*/
-#BGAzulBB {
-    background-color: #8ECAE6;
-
-}
-
-/* ID Tangerina*/
-#BGLaranja {
-color: black;
-    background-color: #FB8500;
-}
-
-#bgBK {
-    background-color: #000;
-}
-#bgWH {
-    background-color: #fff;
-}
-
-
+/* Textos do carousel */
 #item-carousel-titulo {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -88,12 +67,7 @@ color: black;
     font-size: 1.1em;
    /* color: #FB8500; */
 }
-/*
-.d-md-block {
-    background-color: #ffb80350;
-    border-radius: 10rem;
-}
-*/
+
 .carousel-caption-amarelo {
     position: absolute;
     right: 15%;
@@ -107,8 +81,8 @@ color: black;
     background-color: #ffb8035b;
     text-align: center;
     border-radius: 10rem;
-
-}
+    
+} /* propriedades da área de legendas do caroussel */
 .carousel-caption-azul {
     position: absolute;
     right: 15%;
@@ -122,7 +96,7 @@ color: black;
     background-color: #02304784;
     text-align: center;
     border-radius: 10rem;
-}
+} /* propriedades da área de legendas do caroussel */
 .carousel-caption-azulBB {
     position: absolute;
     right: 15%;
@@ -138,6 +112,9 @@ color: black;
     border-radius: 10rem;
 }
 
+.container-radius {
+    border-radius: 1rem;
+} /* Mais arredondamento de container para dar visual mais amigável */
 .container,
 .container-fluid,
 .container-xxl,
@@ -156,4 +133,5 @@ color: black;
 
 #btn-Marinho {
     background-color: #023047;
-}
+} /* Botões "azulMarinho" */
+
