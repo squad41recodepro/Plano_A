@@ -28,20 +28,27 @@
     background-color: #FB8500;
 }
 
-.textoLaranja{
-
-    color: #FB8500;
+.textoBranco {
+    color: #fff;
 }
-.textoNeutroCinza{
-
+.textoNeutroCinza {
     color: #555;
 }
-
-.textoMarinho{
-
+.textoAzulBB {
+    color: #8ECAE6;
+}
+.textoAzul {
+    color: #219EBC;
+}
+.textoMarinho {
     color: #023047;
 }
-
+.textoAmarelo {
+    color: #FFB703;
+}
+.textoLaranja {
+    color: #FB8500;
+}
 
 
 
@@ -63,4 +70,50 @@ color: black;
 }
 #bgWH {
     background-color: #fff;
+}
+
+
+#item-carousel-titulo {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 24px;
+   /* color: #FB8500; */
+}
+#item-carousel-paragrafo {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-style: italic;
+    text-align: center;
+    font-size: 19px;
+   /* color: #FB8500; */
+}
+.d-md-block {
+    background-color: #ffb80350;
+    border-radius: 10rem;
+}
+
+.carousel-caption-azul {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    /* color: #fff; */
+    background-color: #0230476f;
+    text-align: center;
+    border-radius: 10rem;
+}
+.carousel-caption-azulBB {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    /* color: #fff; */
+    background-color: #8ecae667;
+    text-align: center;
+    border-radius: 10rem;
 }
