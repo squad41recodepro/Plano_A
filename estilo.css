@@ -90,6 +90,8 @@ color: black;
 }
 .d-md-block {
     background-color: #ffb80350;
+    padding-left: 5%;
+    padding-right: 5%;
     border-radius: 10rem;
 }
 
@@ -116,4 +118,24 @@ color: black;
     background-color: #8ecae667;
     text-align: center;
     border-radius: 10rem;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+} /* Com isso, totalmente responsivo, adaptado e com padding zerado! */
+
+#btn-Marinho {
+    background-color: #023047;
 }
