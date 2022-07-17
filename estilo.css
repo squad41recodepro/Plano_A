@@ -77,30 +77,46 @@ color: black;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bolder;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.2em;
    /* color: #FB8500; */
 }
 #item-carousel-paragrafo {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:639;
     font-style: italic;
     text-align: center;
-    font-size: 19px;
+    font-size: 1.1em;
    /* color: #FB8500; */
 }
+/*
 .d-md-block {
     background-color: #ffb80350;
-    padding-left: 5%;
-    padding-right: 5%;
     border-radius: 10rem;
 }
+*/
+.carousel-caption-amarelo {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    padding-bottom: 1.25rem;
+    /* color: #fff; */
+    background-color: #ffb80350;
+    text-align: center;
+    border-radius: 10rem;
 
+}
 .carousel-caption-azul {
     position: absolute;
     right: 15%;
     bottom: 1.25rem;
     left: 15%;
     padding-top: 1.25rem;
+    padding-right: .75rem;
+    padding-left: .75rem;
     padding-bottom: 1.25rem;
     /* color: #fff; */
     background-color: #0230476f;
@@ -113,6 +129,8 @@ color: black;
     bottom: 1.25rem;
     left: 15%;
     padding-top: 1.25rem;
+    padding-right: .75rem;
+    padding-left: .75rem;
     padding-bottom: 1.25rem;
     /* color: #fff; */
     background-color: #8ecae667;
