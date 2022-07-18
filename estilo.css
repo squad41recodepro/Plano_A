@@ -58,7 +58,6 @@ color: black;
     font-weight: bolder;
     text-align: center;
     font-size: 1.2em;
-   /* color: #FB8500; */
 }
 #item-carousel-paragrafo {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -66,7 +65,6 @@ color: black;
     font-style: italic;
     text-align: center;
     font-size: 1.1em;
-   /* color: #FB8500; */
 }
 
 .carousel-caption-amarelo {
@@ -81,8 +79,7 @@ color: black;
     /* color: #fff; */
     background-color: #ffb8035b;
     text-align: center;
-    border-radius: 10rem;
-    
+    border-radius: 10rem; 
 } /* propriedades da área de legendas do caroussel */
 .carousel-caption-azul {
     position: absolute;
@@ -167,18 +164,19 @@ color: black;
     --bs-card-img-overlay-padding: 1rem;
     --bs-card-group-margin: 0.75rem;
     position: relative;
-    display:inline-flex;
+    display:inline-flex; /* Favor manter conforme alterado */
     grid-row: span;
     flex-direction:column;
-   /* min-width: 0; */
     height: var(--bs-card-height);
     word-wrap: break-word;
     background-color: var(--bs-card-bg);
     background-clip: border-box;
     border: var(--bs-card-border-width) solid var(--bs-card-border-color);
     border-radius: var(--bs-card-border-radius);
-    min-width: 21rem; /* inserido */
+    /* inserido */
+    min-width: 21rem;
     max-width: 36rem;
+    margin: 1rem;
   }
   .col {
     flex: 1 0 0%; 
@@ -196,4 +194,3 @@ color: black;
     padding: 0 0 0 0;
     
   }
-  
