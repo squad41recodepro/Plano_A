@@ -72,42 +72,42 @@ color: black;
     right: 15%;
     bottom: 1.25rem;
     left: 15%;
-    padding-top: 1.25rem;
+    padding-top: 1.50rem;
     padding-right: .75rem;
     padding-left: .75rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1.0rem;
     /* color: #fff; */
     background-color: #ffb8035b;
     text-align: center;
-    border-radius: 10rem; 
+    border-radius: 3.9rem; 
 } /* propriedades da área de legendas do caroussel */
 .carousel-caption-azul {
     position: absolute;
     right: 15%;
     bottom: 1.25rem;
     left: 15%;
-    padding-top: 1.25rem;
+    padding-top: 1.50rem;
     padding-right: .75rem;
     padding-left: .75rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1.0rem;
     /* color: #fff; */
     background-color: #02304784;
     text-align: center;
-    border-radius: 10rem;
+    border-radius: 3.9rem;
 } /* propriedades da área de legendas do caroussel */
 .carousel-caption-azulBB {
     position: absolute;
     right: 15%;
     bottom: 1.25rem;
     left: 15%;
-    padding-top: 1.25rem;
+    padding-top: 1.50rem;
     padding-right: .75rem;
     padding-left: .75rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1.0rem;
     /* color: #fff; */
     background-color: #8ecae673;
     text-align: center;
-    border-radius: 10rem;
+    border-radius: 3.9rem;
 }
 
 .container-radius {
@@ -181,8 +181,7 @@ color: black;
   .col {
     flex: 1 0 0%; 
   }
-  .row {
-    
+  .row { 
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
@@ -192,5 +191,4 @@ color: black;
     margin-left: calc(-0.5 * var(--bs-gutter-x)); */
     margin: 1rem 0 1rem 0;
     padding: 0 0 0 0;
-    
   }
