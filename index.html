@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title>PlanoA</title>
@@ -22,44 +23,42 @@
 
 <body class="text-monospace">
 
-
   <!-- Cabeçalho-->
+  <header class="container-fluid p-3 text-white BGMarinho">
 
-  <header class="p-3 text-white container BGMarinho">
     <!-- inicio navbar-->
-    <div>
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-        </a>
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
 
-        <a class="navbar-brand" href="./index.html"><img src="imagens/logoClaro_152x72.png" alt="logo plano A"></a>
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fs-5">
-
-          <li><a href="./index.html" class="nav-link px-3 text-white">Home</a></li>
-          <li><a href="./planosDeAula.html" class="nav-link px-3 text-white">Planos de Aula</a></li>
-          <li><a href="./perguntasFrequentes.html" class="nav-link px-3 text-white">Perguntas Frequentes</a></li>
-          <li><a href="./sobreNos.html" class="nav-link px-3 text-white">Sobre Nós</a></li>
-          <li><a href="./contato.html" class="nav-link px-3 text-white">Contato</a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
-        </form>
-
-        <div class="text-end">
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fs-5">
+        <li><a class="navbar-brand" href="./index.html"><img src="imagens/logoClaro_152x72.png" alt="logo plano A"></a>
+        </li>
+        <li><a href="./index.html" class="nav-link px-3 text-white">Home</a></li>
+        <li><a href="./planosDeAula.html" class="nav-link px-3 text-white">Planos de Aula</a></li>
+        <li><a href="./perguntasFrequentes.html" class="nav-link px-3 text-white">Perguntas Frequentes</a></li>
+        <li><a href="./sobreNos.html" class="nav-link px-3 text-white">Sobre Nós</a></li>
+        <li><a href="./contato.html" class="nav-link px-3 text-white">Contato</a></li>
+        <li>
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+          </form>
+        </li>
+        <li>
           <button type="button" class="btn" id="BGLaranja">Login</button>
           <button type="button" class="btn" id="BGAzulBB">Sign-up</button>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
+
   </header>
+  
 
   <main>
-    <section class="container">
+    <section class="container-fluid">
       <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
           <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
@@ -106,21 +105,20 @@
     </section>
   </main>
 
-  <footer>
-    <div class="p-3 BGMarinho text-white container">
 
+    <footer class="container-fluid p-3 BGMarinho text-white">
       <section class="text-center text-lg-start BGLaranja rounded">
         <div class="container d-flex justify-content-center py-5">
-          <button type="button" active class="btn btn-secondary btn-lg btn-floating mx-2 BGMarinho" id="btn-Marinho">
+          <button type="button" class="btn btn-secondary btn-lg mx-2 BGMarinho">
             <i class="bi bi-facebook"></i>
           </button>
-          <button type="button" active class="btn btn-secondary btn-lg btn-floating mx-2 BGMarinho" id="btn-Marinho">
+          <button type="button" class="btn btn-secondary btn-lg mx-2 BGMarinho">
             <i class="bi bi-youtube"></i>
           </button>
-          <button type="button" active class="btn btn-secondary btn-lg btn-floating mx-2 BGMarinho" id="btn-Marinho">
+          <button type="button" class="btn btn-secondary btn-lg mx-2 BGMarinho">
             <i class="bi bi-instagram"></i>
           </button>
-          <button type="button" active class="btn btn-secondary btn-lg btn-floating mx-2 BGMarinho" id="btn-Marinho">
+          <button type="button" class="btn btn-secondary btn-lg mx-2 BGMarinho">
             <i class="bi bi-twitter"></i>
           </button>
         </div>
@@ -131,9 +129,8 @@
           <a class="text-white" href=" "></a>
         </div>
       </section>
+    </footer>
 
-    </div>
-  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
